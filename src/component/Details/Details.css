@@ -1,0 +1,77 @@
+.background-color {
+    width: 25%;  
+    display: inline-block;
+    margin: 40px;
+}
+.container-section h4 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #4a4747;
+}
+.container-section span {
+    font-size: 13px;
+    color: #767676;
+    font-weight: 400;
+}
+@media only screen and (max-device-width: 1199px) {
+    .background-color {
+        width: 40%;  
+        display: inline-block;
+        margin: 40px;
+        position: relative;
+        left:50px
+        
+    }
+
+}
+@media only screen and (max-device-width: 1199px) {
+    .background-color {
+        width: 60%;  
+        display: inline-block;
+        margin: 40px;
+        position: relative;
+        left:150px
+        
+    }
+
+}
+@media only screen and (max-device-width: 1199px) {
+    .background-color {
+        width: 60%;  
+        display: inline-block;
+        margin: 40px;
+        position: relative;
+        left:100px
+        
+    }
+
+}
+@media only screen and (max-device-width: 752px) {
+    .background-color {
+        width: 60%;  
+        display: inline-block;
+        margin: 40px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left:60px
+        
+    }
+
+}
+@media only screen and (max-device-width: 400px) {
+    .background-color {
+        width: 60%;  
+        display: inline-block;
+        margin: 40px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 20px;
+        
+        
+    }
+
+}
